@@ -34,13 +34,13 @@
 
 - Pahoja mokia: suurimpia virheitä mitä voit tehdä ovat raportointi työstä mitä et ole tehnyt ja muiden kuin oman materiaalin käyttäminen luvatta eli plagioiminen.
 
-#    Tehtävä A
+#    Tehtävä A Windows
 
-Aloitin tehtävän avaamalla etäyhteyden debian virtuaalikoneeseen vagrantin kautta vagrant ssh komennolla. Tämän jälkeen päivitin uudet paketit apt-get update komennolla, jonka jälkeen asensin salt-minionin apt-get install salt-minion komennolla. Asennuksen jälkeen testasin toimivuuden tarkistamalla version         --version komennolla.
+Aloitin tehtävän lataamalla Salt Windows paketin Saltin kotisivustolta (saltproject.io) sivustolta. Seuraavaksi asensin Salt paketin ja testasin toimivuuden admin powershellin avulla käyttämällä versio komentoa salt-call --version
 
-![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/f59c72384ae85487f378fe8f67a60b23dbf37211/salt%20minion%20working.png)
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/883565d351607b399a6f4050245806b87b3bddaf/salt%20windows%20working.png)
 
-#    Tehtävä B & C
+#    Tehtävä B & C Vagrant
 
 En ollut asentanut vielä vagranttia pöytäkoneelleni, joten aloitin tehtävän lataamalla vagrant paketin vagrantin kotisivuilta (vagrantup.com). Tämän jälkeen asensin vagrantin ja käynnistin tietokoneeni uudelleen. Kun tietokone oli suorittanut uudelleen käynnistyksen testasin vagrantin toimivuuden init komennolla.
 
@@ -50,6 +50,8 @@ En ollut asentanut vielä vagranttia pöytäkoneelleni, joten aloitin tehtävän
 
  ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/1bb1550b41ede6425d14aca1943bd87386d4f893/vagrant%20new%20machine%20working.png)
 
- ¤    tehtävä D
+ ¤    tehtävä A Linux salt
 
- 
+ Aloitin tehtävän avaamalla etäyhteyden debian virtuaalikoneeseen vagrantin kautta vagrant ssh komennolla. Tämän jälkeen päivitin uudet paketit apt-get update komennolla, jonka jälkeen asensin salt-minionin apt-get install salt-minion komennolla. Asennuksen jälkeen testasin toimivuuden tarkistamalla version        salt-call --version komennolla.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/f59c72384ae85487f378fe8f67a60b23dbf37211/salt%20minion%20working.png)
