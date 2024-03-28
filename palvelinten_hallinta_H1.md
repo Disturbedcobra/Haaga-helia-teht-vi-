@@ -42,4 +42,4 @@
 
 en ollut asentanut vielä vagranttia pöytäkoneelleni, joten aloitin tehtävän lataamalla vagrant paketin vagrantin kotisivuilta (vagrantup.com). tämän jälkeen asensin vagrantin ja käynnistin tietokoneeni uudelleen
 
- ``![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/b13ea827ca47c5c4b4965ec8d3d23ee043984f69/vagrant_working.png)``
+ ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/b13ea827ca47c5c4b4965ec8d3d23ee043984f69/vagrant_working.png)
