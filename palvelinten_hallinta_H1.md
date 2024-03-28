@@ -20,3 +20,20 @@
 
 - Commit on sama kuin julkaisu/tallennus.
   
+##    Raportin kirjoittaminen
+
+- Toistettuus: Raportissa on tärkeää saada sama lopputulos raportin ohjeita noudettaessa sekä kertoa missä ympäristössä raportti on tehty esim. mikä tietokone
+
+- Täsmällisyys: mitä yksityiskohtaisempi raportti, sitä parempi. Kellonajat, komennot/polut, tulokset vaiheittan, ongelmat, käytetyt työkalut, sekä menneen aikamuodon käyttäminen ovat hyvän raportin merkkejä. 
+
+- Helppolukuisuus: kukaan ei halua lukue tekstiä, jossa ei ole käytetty välejä tai sisältää paljon kirjoitusvirheitä. huomio kirjoitus alusta, tiivistelmä raportin alussa on plussaa.
+
+- Lähteet: Akateeminen ja hyvä käytäntö on lisätä viitauksia raporttiin, näillä myös osoitat että olet perehtynyt alueeseen.
+
+- Vakiotekstit: Lisenssit kuten GNU (General Public License) ja mahdollisten pohjien ilmoitus on suositeltavaa.
+
+- Pahoja mokia: suurimpia virheitä mitä voit tehdä ovat raportointi työstä mitä et ole tehnyt ja muiden kuin oman materiaalin käyttäminen luvatta eli plagioiminen.
+
+##    
+
+- 
