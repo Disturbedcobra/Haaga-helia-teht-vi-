@@ -37,3 +37,6 @@
 #    Tehtävä A
 
 - 
+
+#    Tehtävä B
+en ollut asentanut vielä vagranttia pöytäkoneelleni, joten aloitin tehtävän lataamalla vagrant paketin vagrantin kotisivuilta (vagrantup.com). tämän jälkeen asensin vagrantin ja käynnistin tietokoneeni uudelleen
