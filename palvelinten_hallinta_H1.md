@@ -34,6 +34,6 @@
 
 - Pahoja mokia: suurimpia virheitä mitä voit tehdä ovat raportointi työstä mitä et ole tehnyt ja muiden kuin oman materiaalin käyttäminen luvatta eli plagioiminen.
 
-##    
+#    Tehtävä A
 
 - 
