@@ -39,4 +39,7 @@
 - 
 
 #    Tehtävä B
+
 en ollut asentanut vielä vagranttia pöytäkoneelleni, joten aloitin tehtävän lataamalla vagrant paketin vagrantin kotisivuilta (vagrantup.com). tämän jälkeen asensin vagrantin ja käynnistin tietokoneeni uudelleen
+
+ ``![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/main/vagrant_working.png)``
