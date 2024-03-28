@@ -36,7 +36,9 @@
 
 #    Tehtävä A
 
-- 
+Aloitin tehtävän avaamalla etäyhteyden debian virtuaalikoneeseen vagrantin kautta vagrant ssh komennolla. Tämän jälkeen päivitin uudet paketit apt-get update komennolla, jonka jälkeen asensin salt-minionin apt-get install salt-minion komennolla. Asennuksen jälkeen testasin toimivuuden tarkistamalla version         --version komennolla
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/f59c72384ae85487f378fe8f67a60b23dbf37211/salt%20minion%20working.png)
 
 #    Tehtävä B
 
