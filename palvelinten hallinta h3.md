@@ -49,6 +49,24 @@
 
   ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/f55a058cffbd661e2ebc461b407bef6b75628ac1/push.png)
 
+#  Tehtävä C Doh!
+
+Tein muutoksen salt.txt tiedostoon ja poistin muutoksen git reset --hard komennolla.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/1ae101a0c1f0399949f67145d3162f8045c5cb86/doh!.jpg)
+
+# Tehtävä D log
+
+Käytin komentoa git log --patch katsoakseni tehtyjä muutoksia. komento kertoo jokaisen muutoksen mitä varastoon on tehty, milloin muutos on tehty sekä kuka on tehnyt muutoksen. esimerkissä käyttäjänimi krizu teki muutoksen sunnuntaina klo 14:33. ilmoitti muutoksen olevan testi puskemiseen. tiedosto jota muutettiin oli salt.txt, johon oli lisätty rivi i made this using git bash.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5d5a57f9249cb30fe99bcf6430275b8a4de55a86/log.png)
+
+# Tehtävä E suolattu rakki
+
+Tähän tehtävään lainasin opettajan luomaa varastoa. Asensin uudestaan vagrant virtuaalikoneen ja asensin siihen Saltin ja Gitin. Seuraavaksi kloonasin opettajan varaston git clone komennolla. Tämän jälkeen testasin Salt komennon toimivuuden state.single komennolla.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/a7bc6a2d59be279e1c6990f55fcde8c9f31b96e3/saltdog.jpg)
+
   #  Lähteet
 
   Git. S.A. 1.3 Getting Started - What is Git?. Luettavissa: https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F Luettu: 14.4.2024.
