@@ -44,7 +44,7 @@
 
   # Tehtävä B Dolly
 
-  Kloonasin luomani varaston omalla tietokoneelleni Git bash sovelluksella. loin uuden teksti tiedoston ja yritin puskea sen Githubiin, mutten ollut vielä tehnyt Author tiliä. käytin komento git config --global user.email sekä user.name luodakseni itselleni author
+  Kloonasin luomani varaston omalle tietokoneelleni Git bash sovelluksella. loin uuden teksti tiedoston ja yritin puskea sen Githubiin, mutten ollut vielä tehnyt Author tiliä. käytin komento git config --global user.email sekä user.name luodakseni itselleni author
   käyttäjän ja puskin muutokset Githubiin.
 
   ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/f55a058cffbd661e2ebc461b407bef6b75628ac1/push.png)
