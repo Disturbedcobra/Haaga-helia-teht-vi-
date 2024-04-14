@@ -36,7 +36,7 @@
 
   viimeinen muutos päivittää ohje tiedostoa.
 
-  # Tehtäcä A Online
+  # Tehtävä A Online
 
   Loin uuden varaston Githubiin, jonka nimeen ja descriptioon lisäsin sanan summer.
 
