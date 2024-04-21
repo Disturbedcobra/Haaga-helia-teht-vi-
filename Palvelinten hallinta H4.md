@@ -50,9 +50,17 @@ Tyhjensin luomani init.sls tiedoston apache kansiossa ja kirjoitin pkg.isntalled
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/7b4888c2ff4ca16ababda3b37c379188d19f62cf/apache%20init.jpg)
 
-loin myös /srv/salt/apache hakemistoon index.html tiedoston, johon hain template koodin verkosta päästäkseni testaamaan koodia nopeammin. tämän jälkeen testasin koodin toimivuuden
+Loin myös /srv/salt/apache hakemistoon index.html tiedoston, johon hain template koodin verkosta päästäkseni testaamaan koodia nopeammin. tämän jälkeen testasin koodin toimivuuden
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/7b4888c2ff4ca16ababda3b37c379188d19f62cf/easy%20apache.jpg)
+
+## Tehtävä D SSHouto
+
+Tein uuden kansion /srv/salt hakemiston alle nimellä sshd. Tämän jälkeen tarkistin sshd_config tiedoston sijainnin. Loin uuteen hakemistoon uuden init.sls tiedoston ja kirjoitin seuraavat rivit ja testasin.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/24461835b9c497651115433ab9841194ec738454/ssh%20init.jpg)
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/9969e0975fd776d50a973095505f58f2abfb7044/ssh%20wrok.jpg)
 
 # Lähteet
 
