@@ -56,7 +56,7 @@ Loin myös /srv/salt/apache hakemistoon index.html tiedoston, johon hain templat
 
 ## Tehtävä D SSHouto
 
-Tein uuden kansion /srv/salt hakemiston alle nimellä sshd. Tämän jälkeen tarkistin sshd_config tiedoston sijainnin. Loin uuteen hakemistoon uuden init.sls tiedoston ja kirjoitin seuraavat rivit ja testasin.
+Tein uuden kansion /srv/salt hakemiston alle nimellä sshd. Tämän jälkeen tarkistin sshd_config tiedoston sijainnin. Loin sshd hakemistoon source tiedoston nimellä sshd_config ja lisäsin siihen opettajan sivulla olevan sshd_config koodin sekä Port 22 rivin. Kirjoitin sshd hakemistoon uuden init.sls tiedoston ja kirjoitin seuraavat rivit ja testasin.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/24461835b9c497651115433ab9841194ec738454/ssh%20init.jpg)
 
