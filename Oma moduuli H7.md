@@ -38,12 +38,21 @@ Nyt palvelin toimii.
 
 ### Automatisointi Saltilla
 
-Seuraavaksi tehdään asennuksesta automatisoitu Saltin avulla.
+Nyt tehdään asennuksesta automatisoitu Saltin avulla.
 
-Ensimmäisenä kopiodaan muokatut ufw säännöt salt kansioon. nämä saatiin selville uutta porttia avatessa
+Ensimmäisenä kirjoitetaan mitkä paketit halutaan asentaa palvelimelle.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/8b79a34230541ec1d5720b895047936e70c4557d/h7%20packages.jpg)
+
+Seuraavaksi kopiodaan muokatut ufw säännöt salt kansioon. nämä saatiin selville uutta porttia avatessa
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/cd0183f78fb618414a86cae917c98a3c8cee8440/user%20rules.jpg)
-![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
+
+Sitten lisätään kopioidut säännöt file.managed komennolla Salt tilaan.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/fb2895e76b546af37933fba15485b81f3b716efc/h7%20rules.jpg)
+
+
 ## Lähteet
 
 Ionos. 2023. How to setup minecraft server on linux. Luettavissa: https://www.ionos.com/digitalguide/server/know-how/minecraft-server-linux/ Luettu: 12.5.2024.
