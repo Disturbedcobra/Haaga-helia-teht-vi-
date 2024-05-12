@@ -40,6 +40,8 @@ Nyt palvelin toimii.
 
 Seuraavaksi tehdään asennuksesta automatisoitu Saltin avulla.
 
+Ensimmäisenä kopiodaan muokatut ufw säännöt salt kansioon. nämä saatiin selville uutta porttia avatessa
+
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 ## Lähteet
