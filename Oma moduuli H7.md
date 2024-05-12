@@ -12,7 +12,7 @@ Linux käyttöjärjestelmä sekä mieluusti vähintään 4GB vapaata ram muistia
 
 ### Manuaalinen asennus
 
-Ensinmmäisenä asensin ufw palomuurin sudo apt-get install ufw komennolla sekä avasin portin 25565. Minecraft käyttää kyseistä porttia palvelimillaan.
+Ensinmmäisenä asensin ufw palomuurin sudo apt-get install ufw komennolla sekä avasin portin 25565. Minecraft käyttää kyseistä porttia palvelimillaan. (käytä find -printf '%T+ %p\n'|sort komentoa nähdäksesi mitä tiedostoja komento muokkaa. Näitä tarvitaan myöhemmin.)
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/0c05292c0e1e8380b14dc719283839055790c79e/ufw%20port.jpg)
 
@@ -40,17 +40,22 @@ Nyt palvelin toimii.
 
 Nyt tehdään asennuksesta automatisoitu Saltin avulla.
 
-Ensimmäisenä kirjoitetaan mitkä paketit halutaan asentaa palvelimelle.
+Ensimmäisenä kirjoitin mitkä paketit halutaan asentaa palvelimelle.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/8b79a34230541ec1d5720b895047936e70c4557d/h7%20packages.jpg)
 
-Seuraavaksi kopiodaan muokatut ufw säännöt salt kansioon. nämä saatiin selville uutta porttia avatessa
+Seuraavaksi kopioin muokatut ufw säännöt salt kansioon. nämä saatiin selville uutta porttia avatessa. 
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/cd0183f78fb618414a86cae917c98a3c8cee8440/user%20rules.jpg)
 
 Sitten lisätään kopioidut säännöt file.managed komennolla Salt tilaan.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/fb2895e76b546af37933fba15485b81f3b716efc/h7%20rules.jpg)
+
+Lopuksi lisäsin minecraft palvelin hakemiston salt tilaan. 
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/74b00b40141d6d8ab01c10a30ce303993c3a4a38/h7%20minecraft%20init.jpg)
+
 
 
 ## Lähteet
