@@ -28,11 +28,18 @@ Ajoin komennon kerran, jotta sain palvelimen purettua. Seuraavaksi avasin eula.t
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 
-Tämän jälkeen serverin olisi pitänyt toimia, mutta kun yritin löytää palvelinten minecraftissä palvelin alkoi lähettämään minulle loputtomasti samaa virhettä. Sain sen kumminkin korjattua muuttamalla use-native-transport kohdan falseksi.
+Tämän jälkeen serverin olisi pitänyt toimia, mutta kun yritin löytää palvelinta minecraftissä, alkoi palvelin lähettämään minulle loputtomasti samaa virhettä "java.lang.runtimeexception unable to access address of buffer". Sain sen kumminkin korjattua muuttamalla use-native-transport kohdan falseksi.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/49dae75a9a0ab7eb678d5b811c2b8f9a72378ffa/server.properties.jpg)
 
-![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
+Nyt palvelin toimii.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/99f7535998b6d70befffbdd670c5fbe8c15a2b64/server%20works.jpg)
+
+### Automatisointi Saltilla
+
+Seuraavaksi tehdään asennuksesta automatisoitu Saltin avulla.
+
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 ## Lähteet
