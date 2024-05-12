@@ -20,7 +20,7 @@ Tarvitaan myös Java Runtime Environment, asensin sen komennolla sudo apt-get in
 
 Seuraavaksi latasin minecraft palvelimen. Halusin ladata sen valmiiksi automaation kansioon, joten latasin sen hakemistoon /srv/salt/minecraft/server. lataus komento on wget https://launcher.mojang.com/v1/objects/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar tai sudo wget https://launcher.mojang.com/v1/objects/a37bdd5210137354ed1bfe3dac0a5b77fe08fe2e/server.jar jos lataat muualle kuin käyttäjän hakemistoon.
 
-Koska palvelin mukana ei ole käynnistys komentoa loi uuden skriptin, joka käyttää javaa palvelimen ajamiseen sekä haluamaani määrää muistia.
+Koska palvelimen mukana ei ole käynnistys komentoa loin uuden skriptin, joka käyttää javaa palvelimen ajamiseen sekä haluamaani määrää muistia.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/d03ef98de49a954c74a63051984dd13d4bcca50d/skripti%20server.jpg)
 
@@ -28,6 +28,13 @@ Ajoin komennon kerran, jotta sain palvelimen purettua. Seuraavaksi avasin eula.t
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 
+Tämän jälkeen serverin olisi pitänyt toimia, mutta kun yritin löytää palvelinten minecraftissä palvelin alkoi lähettämään minulle loputtomasti samaa virhettä. Sain sen kumminkin korjattua muuttamalla use-native-transport kohdan falseksi.
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/49dae75a9a0ab7eb678d5b811c2b8f9a72378ffa/server.properties.jpg)
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/5cd1a9b2f5d89bcd0d40118fa84cebd53671be46/eula.jpg)
 ## Lähteet
 
 Ionos. 2023. How to setup minecraft server on linux. Luettavissa: https://www.ionos.com/digitalguide/server/know-how/minecraft-server-linux/ Luettu: 12.5.2024.
