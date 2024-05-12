@@ -6,6 +6,8 @@ Luodaan Minecraft palvelin paketti, jonka ajettua käyttäjä olisi valmis pelaa
 
 Tekijä: Kristian Turkki. Lisenssi GNU v.3
 
+Linkki moduulin tiedostoihin: https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/tree/main/minecraft
+
 ## vaatimukset
 
 Linux käyttöjärjestelmä sekä mieluusti vähintään 4GB vapaata ram muistia.
