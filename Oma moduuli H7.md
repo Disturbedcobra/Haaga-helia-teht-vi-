@@ -56,7 +56,13 @@ Lopuksi lisäsin minecraft palvelin hakemiston salt tilaan.
 
 ![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/74b00b40141d6d8ab01c10a30ce303993c3a4a38/h7%20minecraft%20init.jpg)
 
+Tältä salt tila näytti muutaman ajon jälkeen.
 
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/2b8c927354e67143cb9adc4822488d742e3bf780/h7%20state.apply.jpg)
+
+Varmistukseksi ajoin vielä uudessa hakemistossa olevan palvelimen ja liityin palvelimelle minecraftin sisällä
+
+![image text](https://github.com/Disturbedcobra/Palvelinten-hallinta-2024/blob/2b8c927354e67143cb9adc4822488d742e3bf780/h7%20project%20done.jpg)
 
 ## Lähteet
 
